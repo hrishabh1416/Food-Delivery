@@ -7,7 +7,7 @@ import List from './components/pages/List/List'
 import Order from './components/pages/Order/Order'
 import { ToastContainer} from 'react-toastify';
 function AllContent() {
-  const url='https://food-delivery-vv04.onrender.com';
+  const url='https://food-delivery-backend-g9n4.onrender.com';
   return (
     <div>
       <Navbar/>
@@ -19,7 +19,7 @@ function AllContent() {
   )
 }
 function MainApp() {
-  const url='https://food-delivery-vv04.onrender.com';
+  const url='https://food-delivery-backend-g9n4.onrender.com';
   const location=useLocation();
 
 
@@ -35,7 +35,7 @@ function MainApp() {
     );
   }
   function App() {
-    const url='https://food-delivery-vv04.onrender.com';
+    const url='https://food-delivery-backend-g9n4.onrender.com';
     return (
       <BrowserRouter>
       <ToastContainer/>
