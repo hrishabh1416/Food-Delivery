@@ -1,0 +1,30 @@
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+    align-items: center;
+    gap:10px;
+    padding: 12px 15px;
+    border: 1px solid #cacaca;
+    font-size: 13px;    
+}
+.list-table-format title {
+    background-color: #f9f9f9;
+}
+.list-table-format img {
+    width:50px;
+}
+.cursor {
+    cursor: pointer;
+    color: red;
+    border-radius: 20px;
+    background-color:dimgrey;
+    width:30px;
+    height: 30px;
+    font-size: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.cursor:hover {
+    background-color: black;
+}
+

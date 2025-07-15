@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+body {
+    min-height:100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.app{
+    width: 80%;
+    margin:auto
+}
+@keyframes fadeIn {
+    0%{
+        optacity:0;
+    }
+    100%{
+        optacity:1;
+    }
+} */
+/* /* === index.css or global.css === */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.app {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* === Default Animation for Desktop === */
+@keyframes slideFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .header {
+    animation: slideFromTop 0.6s ease-out;
+  }
+  
+  /* === Mobile-specific Animation === */
+  @media (max-width: 768px) {
+    @keyframes slideFromBottom {
+      from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  
+    .header {
+      animation: slideFromBottom 0.6s ease-out;
+    }
+  }
+  
