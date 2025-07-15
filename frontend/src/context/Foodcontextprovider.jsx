@@ -7,7 +7,7 @@ function Foodcontextprovider({children}) {
   const[cartitems,setcartitems]=useState({});
   const [token,settoken]=useState("");
   const [userId, setUserId] = useState("");
-  const url='https://food-delivery-vv04.onrender.com'
+  const url='https://food-delivery-backend-g9n4.onrender.com'
   const addtocart= async (itemid)=>{
     itemid = itemid.toString();
     if(!cartitems[itemid]) {
