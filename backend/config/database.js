@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 export const connectDB = async () => {
   const DBURL = process.env.ATLASDB_URL;
   console.log("Connecting to:", DBURL);  // Add this line
