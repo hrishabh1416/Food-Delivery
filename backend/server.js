@@ -11,15 +11,10 @@ dotenv.config();
 const app=express();
 const port=process.env.PORT||4000;
 app.use(express.json());
-// app.use(cors({
-//   origin: ['https://food-delivery-website-4a6g.onrender.com'],
-//   credentials: true
-// }));
 app.use(cors({
-  origin: ['http://localhost:5173','http://localhost:5174','https://food-delivery-website-a3w4.onrender.com'],
+  origin: ['https://food-delivery-lgwo.onrender.com'],
   credentials: true
 }));
-
 connectDB();
 app.use('/api/food',foodRouter)
 app.use('/images', express.static('uploads'));
